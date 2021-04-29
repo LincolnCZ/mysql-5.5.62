@@ -1,0 +1,200 @@
+210429 18:02:24 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:02:24 InnoDB: The InnoDB memory heap is disabled
+210429 18:02:24 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:02:24 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:02:24 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:02:24 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+210429 18:02:24  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+210429 18:02:24  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+210429 18:02:24  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+210429 18:02:28  InnoDB: Waiting for the background threads to start
+210429 18:02:29 InnoDB: 5.5.62 started; log sequence number 0
+210429 18:02:29 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33060
+210429 18:02:29 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:02:29 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:02:29 [ERROR] Can't start server: Bind on TCP/IP port: Address already in use
+210429 18:02:29 [ERROR] Do you already have another mysqld server running on port: 33060 ?
+210429 18:02:29 [ERROR] Aborting
+
+210429 18:02:29  InnoDB: Starting shutdown...
+210429 18:02:29  InnoDB: Shutdown completed; log sequence number 1595675
+210429 18:02:29 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210429 18:02:41 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:02:41 InnoDB: The InnoDB memory heap is disabled
+210429 18:02:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:02:41 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:02:41 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:02:41 InnoDB: Completed initialization of buffer pool
+210429 18:02:41 InnoDB: highest supported file format is Barracuda.
+210429 18:02:41  InnoDB: Waiting for the background threads to start
+210429 18:02:42 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:02:42 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33060
+210429 18:02:42 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:02:42 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:02:42 [ERROR] Can't start server: Bind on TCP/IP port: Address already in use
+210429 18:02:42 [ERROR] Do you already have another mysqld server running on port: 33060 ?
+210429 18:02:42 [ERROR] Aborting
+
+210429 18:02:42  InnoDB: Starting shutdown...
+210429 18:02:43  InnoDB: Shutdown completed; log sequence number 1595675
+210429 18:02:43 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210429 18:06:57 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:06:57 InnoDB: The InnoDB memory heap is disabled
+210429 18:06:57 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:06:57 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:06:57 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:06:57 InnoDB: Completed initialization of buffer pool
+210429 18:06:57 InnoDB: highest supported file format is Barracuda.
+210429 18:06:58  InnoDB: Waiting for the background threads to start
+210429 18:06:59 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:06:59 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33061
+210429 18:06:59 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:06:59 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:06:59 [ERROR] Can't start server : Bind on unix socket: Address already in use
+210429 18:06:59 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+210429 18:06:59 [ERROR] Aborting
+
+210429 18:06:59  InnoDB: Starting shutdown...
+210429 18:06:59  InnoDB: Shutdown completed; log sequence number 1595675
+210429 18:06:59 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210429 18:07:13 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:07:13 InnoDB: The InnoDB memory heap is disabled
+210429 18:07:13 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:07:13 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:07:13 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:07:13 InnoDB: Completed initialization of buffer pool
+210429 18:07:13 InnoDB: highest supported file format is Barracuda.
+210429 18:07:13  InnoDB: Waiting for the background threads to start
+210429 18:07:14 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:07:14 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33061
+210429 18:07:14 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:07:14 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:07:14 [ERROR] Can't start server : Bind on unix socket: Address already in use
+210429 18:07:14 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+210429 18:07:14 [ERROR] Aborting
+
+210429 18:07:14  InnoDB: Starting shutdown...
+210429 18:07:15  InnoDB: Shutdown completed; log sequence number 1595675
+210429 18:07:15 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210429 18:07:31 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:07:31 InnoDB: The InnoDB memory heap is disabled
+210429 18:07:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:07:31 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:07:31 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:07:31 InnoDB: Completed initialization of buffer pool
+210429 18:07:31 InnoDB: highest supported file format is Barracuda.
+210429 18:07:31  InnoDB: Waiting for the background threads to start
+210429 18:07:32 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:07:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210429 18:07:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:07:32 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:07:32 [ERROR] Can't start server : Bind on unix socket: Address already in use
+210429 18:07:32 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+210429 18:07:32 [ERROR] Aborting
+
+210429 18:07:32  InnoDB: Starting shutdown...
+210429 18:07:32  InnoDB: Shutdown completed; log sequence number 1595675
+210429 18:07:32 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210429 18:08:00 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:08:00 InnoDB: The InnoDB memory heap is disabled
+210429 18:08:00 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:08:00 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:08:00 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:08:00 InnoDB: Completed initialization of buffer pool
+210429 18:08:00 InnoDB: highest supported file format is Barracuda.
+210429 18:08:01  InnoDB: Waiting for the background threads to start
+210429 18:08:02 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:08:02 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210429 18:08:02 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:08:02 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:08:02 [ERROR] Can't start server : Bind on unix socket: Address already in use
+210429 18:08:02 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+210429 18:08:02 [ERROR] Aborting
+
+210429 18:08:02  InnoDB: Starting shutdown...
+210429 18:08:02  InnoDB: Shutdown completed; log sequence number 1595675
+210429 18:08:02 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210429 18:09:07 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:09:07 InnoDB: The InnoDB memory heap is disabled
+210429 18:09:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:09:07 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:09:07 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:09:07 InnoDB: Completed initialization of buffer pool
+210429 18:09:07 InnoDB: highest supported file format is Barracuda.
+210429 18:09:07  InnoDB: Waiting for the background threads to start
+210429 18:09:08 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:09:08 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210429 18:09:08 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:09:08 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:09:08 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+210429 18:09:08 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+210429 18:09:08 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+210429 18:09:08 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
+Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution
+210429 18:16:41 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 18:16:41 InnoDB: The InnoDB memory heap is disabled
+210429 18:16:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 18:16:41 InnoDB: Compressed tables use zlib 1.2.11
+210429 18:16:41 InnoDB: Initializing buffer pool, size = 128.0M
+210429 18:16:41 InnoDB: Completed initialization of buffer pool
+210429 18:16:41 InnoDB: highest supported file format is Barracuda.
+210429 18:16:41  InnoDB: Waiting for the background threads to start
+210429 18:16:42 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 18:16:43 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210429 18:16:43 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 18:16:43 [Note] Server socket created on IP: '0.0.0.0'.
+210429 18:16:43 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+210429 18:16:43 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+210429 18:16:43 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+210429 18:16:43 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
+Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution

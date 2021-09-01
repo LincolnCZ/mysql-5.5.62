@@ -1,8 +1,8 @@
-# Install script for directory: /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share
+# Install script for directory: /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out")
+  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,102 +38,102 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/danish")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/danish")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/german")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/german")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/slovak")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/slovak")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/dutch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/dutch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/greek")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/greek")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/norwegian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/norwegian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/spanish")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/spanish")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/english")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/english")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/hungarian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/hungarian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/norwegian-ny")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/norwegian-ny")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/swedish")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/swedish")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/italian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/italian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/polish")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/polish")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/ukrainian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/ukrainian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/japanese")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/japanese")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/portuguese")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/portuguese")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/romanian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/romanian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/estonian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/estonian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/korean")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/korean")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/russian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/russian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/czech")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/czech")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/french")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/french")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/serbian")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/serbian")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/charsets" REGEX "/languages\\.html$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/charsets" REGEX "/languages\\.html$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServerx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/share/errmsg-utf8.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/share/errmsg-utf8.txt")
 endif()
 

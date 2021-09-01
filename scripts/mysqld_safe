@@ -456,8 +456,8 @@ else
 
   # If we still didn't find anything, use the compiled-in defaults
   if test -z "$MY_BASEDIR_VERSION" ; then
-    MY_BASEDIR_VERSION='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out'
-    ledir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin'
+    MY_BASEDIR_VERSION='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out'
+    ledir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin'
   fi
 fi
 
@@ -475,7 +475,7 @@ then
   fi
 # Or just give up and use our compiled-in default
 else
-  DATADIR=/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/data
+  DATADIR=/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/data
 fi
 
 if test -z "$MYSQL_HOME"
@@ -505,8 +505,8 @@ export MYSQL_HOME
 # and then merge with the command line arguments
 if test -x "$MY_BASEDIR_VERSION/bin/my_print_defaults" ; then
   print_defaults="$MY_BASEDIR_VERSION/bin/my_print_defaults"
-elif test -x "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin/my_print_defaults" ; then
-  print_defaults="/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin/my_print_defaults"
+elif test -x "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin/my_print_defaults" ; then
+  print_defaults="/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin/my_print_defaults"
 else
   print_defaults="my_print_defaults"
 fi
@@ -548,7 +548,7 @@ else
   done
   # Give up and use compiled-in default
   if [ -z "${plugin_dir}" ]; then
-    plugin_dir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/lib/plugin'
+    plugin_dir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/lib/plugin'
   fi
 fi
 plugin_dir="${plugin_dir}${PLUGIN_VARIANT}"

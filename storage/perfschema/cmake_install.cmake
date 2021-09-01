@@ -1,8 +1,8 @@
-# Install script for directory: /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/storage/perfschema
+# Install script for directory: /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/storage/perfschema
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out")
+  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/storage/perfschema/unittest/cmake_install.cmake")
+  include("/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/storage/perfschema/unittest/cmake_install.cmake")
 
 endif()
 

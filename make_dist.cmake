@@ -17,8 +17,8 @@
 # If git is present, run git archive.
 # Otherwise, just run cpack with source configuration.
 
-SET(CMAKE_SOURCE_DIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62")
-SET(CMAKE_BINARY_DIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62")
+SET(CMAKE_SOURCE_DIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62")
+SET(CMAKE_BINARY_DIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62")
 SET(CPACK_SOURCE_PACKAGE_FILE_NAME "mysql-5.5.62")
 SET(CMAKE_CPACK_COMMAND  "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack")
 SET(CMAKE_COMMAND  "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake")

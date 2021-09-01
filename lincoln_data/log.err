@@ -198,3 +198,155 @@ Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribu
 210429 18:16:43 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
 210429 18:16:43 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
 Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution
+210429 19:17:57 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210429 19:17:57 InnoDB: The InnoDB memory heap is disabled
+210429 19:17:57 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210429 19:17:57 InnoDB: Compressed tables use zlib 1.2.11
+210429 19:17:57 InnoDB: Initializing buffer pool, size = 128.0M
+210429 19:17:57 InnoDB: Completed initialization of buffer pool
+210429 19:17:57 InnoDB: highest supported file format is Barracuda.
+210429 19:17:57  InnoDB: Waiting for the background threads to start
+210429 19:17:58 InnoDB: 5.5.62 started; log sequence number 1595675
+210429 19:17:58 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210429 19:17:58 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210429 19:17:58 [Note] Server socket created on IP: '0.0.0.0'.
+210429 19:17:58 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+210429 19:17:58 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+210429 19:17:58 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+210429 19:17:58 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
+Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution
+210430 11:38:28 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210430 11:38:28 InnoDB: The InnoDB memory heap is disabled
+210430 11:38:28 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210430 11:38:28 InnoDB: Compressed tables use zlib 1.2.11
+210430 11:38:28 InnoDB: Initializing buffer pool, size = 128.0M
+210430 11:38:28 InnoDB: Completed initialization of buffer pool
+210430 11:38:28 InnoDB: highest supported file format is Barracuda.
+210430 11:38:28  InnoDB: Waiting for the background threads to start
+210430 11:38:29 InnoDB: 5.5.62 started; log sequence number 1595675
+210430 11:38:29 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210430 11:38:29 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210430 11:38:29 [Note] Server socket created on IP: '0.0.0.0'.
+210430 11:38:29 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+210430 11:38:29 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+210430 11:38:29 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+210430 11:38:29 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
+Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution
+210430 14:23:48 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210430 14:23:48 InnoDB: The InnoDB memory heap is disabled
+210430 14:23:48 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210430 14:23:48 InnoDB: Compressed tables use zlib 1.2.11
+210430 14:23:48 InnoDB: Initializing buffer pool, size = 128.0M
+210430 14:23:48 InnoDB: Completed initialization of buffer pool
+210430 14:23:48 InnoDB: highest supported file format is Barracuda.
+210430 14:23:48  InnoDB: Waiting for the background threads to start
+210430 14:23:49 InnoDB: 5.5.62 started; log sequence number 1595675
+210430 14:23:49 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210430 14:23:49 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210430 14:23:49 [Note] Server socket created on IP: '0.0.0.0'.
+210430 14:23:49 [ERROR] Can't start server : Bind on unix socket: Address already in use
+210430 14:23:49 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+210430 14:23:49 [ERROR] Aborting
+
+210430 14:23:49  InnoDB: Starting shutdown...
+210430 14:23:50  InnoDB: Shutdown completed; log sequence number 1595675
+210430 14:23:50 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: Shutdown complete
+
+210430 14:25:16 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210430 14:25:16 InnoDB: The InnoDB memory heap is disabled
+210430 14:25:16 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210430 14:25:16 InnoDB: Compressed tables use zlib 1.2.11
+210430 14:25:16 InnoDB: Initializing buffer pool, size = 128.0M
+210430 14:25:16 InnoDB: Completed initialization of buffer pool
+210430 14:25:16 InnoDB: highest supported file format is Barracuda.
+210430 14:25:16  InnoDB: Waiting for the background threads to start
+210430 14:25:17 InnoDB: 5.5.62 started; log sequence number 1595675
+210430 14:25:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210430 14:25:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210430 14:25:17 [Note] Server socket created on IP: '0.0.0.0'.
+210430 14:25:17 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+210430 14:25:17 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+210430 14:25:17 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+210430 14:25:17 [Note] /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
+Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution
+210901 18:03:16 InnoDB: !!!!!!!! UNIV_DEBUG switched on !!!!!!!!!
+210901 18:03:16 InnoDB: The InnoDB memory heap is disabled
+210901 18:03:16 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210901 18:03:16 InnoDB: Compressed tables use zlib 1.2.11
+210901 18:03:16 InnoDB: Initializing buffer pool, size = 128.0M
+210901 18:03:16 InnoDB: Completed initialization of buffer pool
+210901 18:03:16 InnoDB: highest supported file format is Barracuda.
+210901 18:03:16  InnoDB: Waiting for the background threads to start
+210901 18:03:17 InnoDB: 5.5.62 started; log sequence number 1595675
+210901 18:03:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33062
+210901 18:03:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210901 18:03:17 [Note] Server socket created on IP: '0.0.0.0'.
+210901 18:03:17 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+210901 18:03:17 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+210901 18:03:17 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+210901 18:03:17 [Note] /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql/mysqld: ready for connections.
+Version: '5.5.62-debug'  socket: '/tmp/mysql.sock'  port: 33062  Source distribution

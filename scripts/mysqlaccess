@@ -35,7 +35,7 @@ BEGIN {
 
 	# ****************************
 	# information on MySQL
-	$MYSQL     = '/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin/mysql';    # path to mysql executable
+	$MYSQL     = '/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin/mysql';    # path to mysql executable
 	$SERVER    = '3.21';
 	$MYSQL_OPT = ' --batch --unbuffered';
 	$ACCESS_DB = 'mysql';		 # name of DB with grant-tables
@@ -50,7 +50,7 @@ BEGIN {
 	$ACCESS_U_BCK = 'user_backup';   
 	$ACCESS_D_BCK = 'db_backup';     
         $DIFF      = '/usr/bin/diff'; 
-        $MYSQLDUMP = '/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin/mysqldump';
+        $MYSQLDUMP = '/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin/mysqldump';
                                          #path to mysqldump executable
 
         $MYSQLADMIN= 'http://foobar.com/MySQLadmin';
@@ -477,9 +477,9 @@ MySQLaccess::Report::Print_Header();
 # *****************************
 # Read configuration-file
   MySQLaccess::Debug::Print(1, "Reading configuration file...");
-  if (-f "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/$script_conf") {
-     print "Configuration file '$script_conf' is found in '/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/'\n";
-     require "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/$script_conf";
+  if (-f "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/$script_conf") {
+     print "Configuration file '$script_conf' is found in '/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/'\n";
+     require "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/$script_conf";
   }
   elsif (-f "/etc/$script_conf") {
      print "Configuration file '$script_conf' is found in '/etc/'\n";
@@ -488,7 +488,7 @@ MySQLaccess::Report::Print_Header();
   elsif (-f "./$script_conf") {
      print "\nERROR! Configuration file '$script_conf' is found in the current ";
      print "directory.\nThe permissible locations for this file are either ";
-     print "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/ or /etc/\n";
+     print "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/ or /etc/\n";
      print "Please move it to one of these locations and retry.\n\n";
      exit 0;
   }
@@ -957,7 +957,7 @@ sub MergeConfigFile {
 # =================================
 sub MergeConfigFiles {
     my ($name,$pass,$uid,$gid,$quota,$comment,$gcos,$dir,$shell) = getpwuid $<;
-    MergeConfigFile("/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/my.cnf");
+    MergeConfigFile("/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/my.cnf");
     MergeConfigFile("/etc/my.cnf");
     MergeConfigFile("$dir/.my.cnf");
 }

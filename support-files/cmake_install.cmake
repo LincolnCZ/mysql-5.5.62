@@ -1,8 +1,8 @@
-# Install script for directory: /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files
+# Install script for directory: /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out")
+  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,62 +38,62 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/my-huge.cnf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/my-huge.cnf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/my-innodb-heavy-4G.cnf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/my-innodb-heavy-4G.cnf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/my-large.cnf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/my-large.cnf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/my-medium.cnf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/my-medium.cnf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/my-small.cnf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/my-small.cnf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServer_Scriptsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/mysqld_multi.server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/mysqld_multi.server")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServer_Scriptsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/mysql-log-rotate")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/mysql-log-rotate")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xServer_Scriptsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/binary-configure")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/binary-configure")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/config.medium.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/config.medium.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/config.small.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/config.small.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/config.huge.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/config.huge.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xIniFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/ndb-config-2-node.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/ndb-config-2-node.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSupportFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/magic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/magic")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aclocal" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/mysql.m4")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aclocal" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/mysql.m4")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSupportFilesx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/support-files/mysql.server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/support-files" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/support-files/mysql.server")
 endif()
 

@@ -149,18 +149,18 @@ sub quote_options {
 my $me = get_full_path($0);
 $basedir = dirname(dirname($me)); # Remove "/bin/mysql_config" part
 
-my $ldata   = '/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/data';
-my $execdir = '/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin';
-my $bindir  = '/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin';
+my $ldata   = '/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/data';
+my $execdir = '/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin';
+my $bindir  = '/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin';
 
 # ----------------------------------------------------------------------
 # If installed, search for the compiled in directory first (might be "lib64")
 # ----------------------------------------------------------------------
 
-my $pkglibdir = fix_path('/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/lib',"libmysql/relwithdebinfo",
+my $pkglibdir = fix_path('/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/lib',"libmysql/relwithdebinfo",
                          "libmysql/release","libmysql/debug","lib/mysql","lib");
 
-my $pkgincludedir = fix_path('/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/include', "include/mysql", "include");
+my $pkgincludedir = fix_path('/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/include', "include/mysql", "include");
 
 # Assume no argument with space in it
 my @ldflags = split(" ",'');

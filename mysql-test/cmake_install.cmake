@@ -1,8 +1,8 @@
-# Install script for directory: /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/mysql-test
+# Install script for directory: /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/mysql-test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out")
+  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xTestx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/mysql-test/." USE_SOURCE_PERMISSIONS REGEX "/var\\/$" EXCLUDE REGEX "/lib\\/my\\/safeprocess$" EXCLUDE REGEX "/lib\\/t[^/]*$" EXCLUDE REGEX "/cpack$" EXCLUDE REGEX "/cmake[^/]*$" EXCLUDE REGEX "/mtr\\.out[^/]*$" EXCLUDE REGEX "/\\.cvsignore$" EXCLUDE REGEX "/[^/]*\\.am$" EXCLUDE REGEX "/[^/]*\\.in$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/mysql-test/." USE_SOURCE_PERMISSIONS REGEX "/var\\/$" EXCLUDE REGEX "/lib\\/my\\/safeprocess$" EXCLUDE REGEX "/lib\\/t[^/]*$" EXCLUDE REGEX "/cpack$" EXCLUDE REGEX "/cmake[^/]*$" EXCLUDE REGEX "/mtr\\.out[^/]*$" EXCLUDE REGEX "/\\.cvsignore$" EXCLUDE REGEX "/[^/]*\\.am$" EXCLUDE REGEX "/[^/]*\\.in$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xTestx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test" TYPE FILE FILES
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/mysql-test/mtr"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/mysql-test/mysql-test-run"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/mysql-test/mtr"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/mysql-test/mysql-test-run"
     )
 endif()
 

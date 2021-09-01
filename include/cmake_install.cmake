@@ -1,8 +1,8 @@
-# Install script for directory: /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include
+# Install script for directory: /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out")
+  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,44 +39,44 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql_com.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql_time.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_list.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_alloc.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/typelib.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql/plugin.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql/plugin_audit.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql/plugin_ftparser.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_dbug.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/m_string.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_sys.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_xml.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql_embed.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_pthread.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/decimal.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/errmsg.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_global.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_net.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_getopt.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/sslopt-longopts.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_dir.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/sslopt-vars.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/sslopt-case.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/sql_common.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/keycache.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/m_ctype.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_attribute.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_compiler.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql_version.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/my_config.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysqld_ername.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysqld_error.h"
-    "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/sql_state.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql_com.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql_time.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_list.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_alloc.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/typelib.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql/plugin.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql/plugin_audit.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql/plugin_ftparser.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_dbug.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/m_string.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_sys.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_xml.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql_embed.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_pthread.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/decimal.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/errmsg.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_global.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_net.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_getopt.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/sslopt-longopts.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_dir.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/sslopt-vars.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/sslopt-case.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/sql_common.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/keycache.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/m_ctype.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_attribute.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_compiler.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql_version.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/my_config.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysqld_ername.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysqld_error.h"
+    "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/sql_state.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mysql" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/include/mysql/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mysql" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/include/mysql/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench
+# Install script for directory: /Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out")
+  set(CMAKE_INSTALL_PREFIX "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,210 +38,210 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench/Data" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/Data/ATIS")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench/Data" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/Data/ATIS")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench/Data" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/Data/Wisconsin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench/Data" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/Data/Wisconsin")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE DIRECTORY FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/limits")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE DIRECTORY FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/limits")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/CTestTestfile.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/CTestTestfile.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE FILE FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/README")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE FILE FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/README")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-count-distinct")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-count-distinct")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-count-distinct")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-count-distinct")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-init.pl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-init.pl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-init.pl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/bench-init.pl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/cmake_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/compare-results")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/compare-results")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/compare-results")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/compare-results")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/copy-db")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/copy-db")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/copy-db")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/copy-db")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/crash-me")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/crash-me")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/crash-me")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/crash-me")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/graph-compare-results")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/graph-compare-results")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/graph-compare-results")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/graph-compare-results")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1b")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1b")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1b")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest1b")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2b")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2b")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2b")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/innotest2b")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/run-all-tests")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/run-all-tests")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/run-all-tests")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/run-all-tests")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/server-cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/server-cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/server-cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/server-cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-ATIS")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-ATIS")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-ATIS")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-ATIS")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-alter-table")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-alter-table")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-alter-table")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-alter-table")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-big-tables")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-big-tables")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-big-tables")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-big-tables")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-connect")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-connect")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-connect")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-connect")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-create")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-create")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-create")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-create")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-insert")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-insert")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-insert")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-insert")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-select")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-select")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-select")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-select")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-transactions")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-transactions")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-transactions")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-transactions")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-wisconsin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-wisconsin")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xSqlBenchx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/sql-bench/test-wisconsin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sql-bench" TYPE PROGRAM FILES "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/sql-bench/test-wisconsin")
 endif()
 

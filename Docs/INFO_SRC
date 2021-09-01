@@ -1,7 +1,8 @@
-commit: f65b4435376c0f1f1f11481aefe05dbc4218d02d
-date: 2018-08-20 13:32:37 +0200
-build-date: 2018-08-28 23:12:58 +0200
-short: f65b443
-branch: mysql-5.5.62-release
+commit: 5d5caf9171dcf73456788238a589e394c429f2fb
+date: 2021-04-29 19:00:35 +0800
+build-date: 2021-09-01 18:01:42 +0800 
+short: 5d5caf9
+branch: main
+
 
 MySQL source 5.5.62

@@ -79,20 +79,20 @@ me=`get_full_path $0`
 # Script might have been renamed but assume mysql_<something>config<something>
 basedir=`echo $me | sed -e 's;/bin/mysql_.*config.*;;'`
 
-ldata='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/data'
-execdir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin'
-bindir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/bin'
+ldata='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/data'
+execdir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin'
+bindir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/bin'
 
 # If installed, search for the compiled in directory first (might be "lib64")
-pkglibdir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/lib'
+pkglibdir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/lib'
 pkglibdir_rel=`echo $pkglibdir | sed -e "s;^$basedir/;;"`
 fix_path pkglibdir $pkglibdir_rel lib/mysql lib
 
-plugindir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/lib/plugin'
+plugindir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/lib/plugin'
 plugindir_rel=`echo $plugindir | sed -e "s;^$basedir/;;"`
 fix_path plugindir $plugindir_rel lib/mysql/plugin lib/plugin
 
-pkgincludedir='/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/include'
+pkgincludedir='/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/include'
 if [ -f "$basedir/include/mysql/mysql.h" ]; then
   pkgincludedir="$basedir/include/mysql"
 elif [ -f "$basedir/include/mysql.h" ]; then

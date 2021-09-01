@@ -595,13 +595,13 @@
 # define HAVE_NDB_BINLOG 1
 #endif
 
-#define DEFAULT_MYSQL_HOME "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out"
-#define SHAREDIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/share"
-#define DEFAULT_BASEDIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out"
-#define MYSQL_DATADIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/data"
-#define DEFAULT_CHARSET_HOME "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out"
-#define PLUGINDIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/lib/plugin"
-#define DEFAULT_SYSCONFDIR "/Users/linchengzhong/MyDocument/myCode/myGitHub/mysql-5.5.62/build_out/etc"
+#define DEFAULT_MYSQL_HOME "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out"
+#define SHAREDIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/share"
+#define DEFAULT_BASEDIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out"
+#define MYSQL_DATADIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/data"
+#define DEFAULT_CHARSET_HOME "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out"
+#define PLUGINDIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/lib/plugin"
+#define DEFAULT_SYSCONFDIR "/Users/linchengzhong/Work/myCode/myGitHub/mysql-5.5.62/build_out/etc"
 #define DEFAULT_TMPDIR P_tmpdir
 
 /* #undef SO_EXT */
